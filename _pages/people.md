@@ -1,5 +1,6 @@
 ---
 title: people
+nav: true
 permalink: /people
 subtitle: <a href='#'>Carnegie Mellon University In Qatar </a>.
 
