@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Certified Ethical Hacker preperation
-description: Planning to pass a exam some time
+title: Bot personification
+description: under construction
 img: assets/img/CEH.jpg
 importance: 1
 category: work
