@@ -8,12 +8,5 @@ profile:
   align: right
   image: logo.png
   image_circular: true # crops the image to make it circular
-profile:
-  align: right
-  image: logo.png
-  image_circular: true # crops the image to make it circular
-profile:
-  align: right
-  image: logo.png
-  image_circular: true # crops the image to make it circular
+
 ---
