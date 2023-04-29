@@ -2,18 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Yunze
-middle_name: (Lorenzo)
-last_name: Xiao
-email: yunzex@andrew.cmu.edu
+title: blank AAL lab# the website title (if blank, full name will be used instead)
+first_name: Autonomous Anime
+last_name: Lab
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A website of Lorenzo. What!!! you do not know Lorenzo! Go check it out!
+  Check the lab out!
  
-keywords: Natrual Language Processing,Prompt Engineering,Computer Security, Social Engineering, 
+keywords: Natrual Language Processing,Prompt Engineering, 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://algoroxyolo.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
