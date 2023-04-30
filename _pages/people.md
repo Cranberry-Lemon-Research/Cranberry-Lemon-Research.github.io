@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: people
 nav: true
 permalink: /people
