@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Yunze Xiao
-description: (Now) Senior Staff Research Scientist, Google
-img: /assets/img/yunze_xiao.jpg
+description: CMU Qatar Computer Science undergraduate
+img: /assets/img/lrz.jpg
 importance: 1
-category: alumni
+category: Researcher
 redirect: https://algoroxyolo.github.io
 ---
