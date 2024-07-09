@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Devang Acharya
+title: Hibiki
 description: Avey Research Engineer
 img: /assets/img/devang.jpg
 importance: 1
