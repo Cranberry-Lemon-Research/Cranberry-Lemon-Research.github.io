@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>An CMU-Q initiative </a>.
+subtitle: <a href='qatar.cmu.edu'>An CMU-Q initiative </a>.
 
 profile:
   align: right
-  image: logo.png
+  image: logo.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>Carnegie Mellon University in Qatar</p>
@@ -18,8 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-SIGFUNSAI, short for Special Interest Group for Fun Stuff in AI, is an engaging and innovative community deeply immersed in the realms of Artificial Intelligence (AI) and Natural Language Processing (NLP). As a vibrant collective, SIGFUNSAI is dedicated to exploring the exhilarating frontiers of AI while fostering a space where individuals passionate about AI can collaborate, innovate, and have fun.
+Cranberry-Lemon Research (CLR) is an innovative student organization at Carnegie Mellon University in Qatar dedicated to the exploration and development of Artificial Intelligence (AI) and Natural Language Processing (NLP) technologies. Our mission is to create a dynamic and inclusive community where AI enthusiasts can collaborate on cutting-edge research, share ideas, and engage in exciting projects that make complex AI concepts accessible to a broader audience. Through a combination of research opportunities, seminars, and practical sessions, CLR aims to inspire curiosity and creativity in AI/NLP, fostering an environment where members can thrive and contribute to the advancement of AI technologies.
 
-At its core, SIGFUNSAI delves into diverse and intriguing AI/NLP topics, conducts cutting-edge research, and hosts a spectrum of activities aimed at making complex AI concepts accessible and enjoyable. It serves as a platform for students with a keen interest and aptitude in AI-related backgrounds, providing opportunities for exploration, collaboration, and skill development.
+At CLR, we believe in the power of collaborative innovation. Our organization provides a platform for students from diverse backgrounds to work together on intriguing AI/NLP topics, driving forward the frontiers of research. We offer engaging discussions, workshops, and resources designed to enrich the AI landscape within our community. By creating an inclusive space where individuals passionate about AI can connect and collaborate, CLR not only advances technical knowledge but also builds a supportive network that nurtures personal and professional growth.
+
 
 

@@ -4,7 +4,7 @@ title: people
 permalink: /people/
 description:
 nav: true
-display_categories: [Researcher, Junior, Contributor,Fellow]
+display_categories: [Researcher, Junior, Contributor]
 horizontal: false
 ---
 <div class="projects">
