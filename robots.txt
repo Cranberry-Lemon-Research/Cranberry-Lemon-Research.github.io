@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sigfunsai.github.io/sitemap.xml
+Sitemap: https://cranberry-lemon-research.github.io/sitemap.xml
