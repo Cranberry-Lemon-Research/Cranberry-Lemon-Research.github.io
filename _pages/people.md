@@ -1,26 +1,57 @@
 ---
-layout: default
+layout: page
 title: people
+permalink: /people/
+description:
 nav: true
-permalink: /people
-subtitle: <a href='#'>Carnegie Mellon University In Qatar </a>.
-
+display_categories: [current, alumni]
+horizontal: false
 ---
+<div class="projects">
+  {% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+    {% for category in page.display_categories %}
+      <h2 class="category">{{ category }}</h2>
+      {% assign categorized_projects = site.ppl | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+          {% for project in sorted_projects %}
+            {% include projects_horizontal.html %}
+          {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for project in sorted_projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
 
-{% include figure.html path="assets/img/lrz.jpg" class="img-fluid rounded z-depth-1" %} Yunze Xiao
+  {% else %}
+  <!-- Display projects without categories -->
+    {% assign sorted_projects = site.ppl | sort: "importance" %}
+    <!-- Generate cards for each project -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.html %}
+        {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for project in sorted_projects %}
+          {% include projects.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-[Carnegie Mellon University Qatar](https://qatar.cmu.edu)
-[email](mailto:yunzex@andrew.cmu.edu) || [LinkedIn](https://www.linkedin.com/in/yunze-xiao/) || [website](https://algoroxyolo.github.io)
-{% include figure.html path="assets/img/leon.jpg" class="img-fluid rounded z-depth-1" %} Liang Lu
-[Carnegie Mellon University](https://cmu.edu)
+  {% endif %}
 
-[email](mailto:lianglu@cs.cmu.edu) || [LinkedIn](https://www.linkedin.com/in/leonlianglu/) || [website](https://chaosarium.xyz/)
-{% include figure.html path="assets/img/charlie.jpg" class="img-fluid rounded z-depth-1" %} Charlie Zhang
-[University of Illinois Urbana-Champaign](https://illinois.edu/)
-
-[email](mailto:weijia4@Illinois.edu) || [LinkedIn](https://www.linkedin.com/in/charlie-zhang-1953b0250/) || [website](https://charliedreemur.wordpress.com/)
-{% include figure.html path="assets/img/ethan.jpg" class="img-fluid rounded z-depth-1" %} Ethan Pan
-[University of Wisconsin–Madison](https://wisc.edu)
-
-[email](mailto:pan248@wisc.edu)
-
+</div>
