@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: SIGFunSAI # the website title (if blank, full name will be used instead)
-first_name: Special Interest Group for Fun Stuff in AI 
+title: Cranberry Lemon Research # the website title (if blank, full name will be used instead)
+first_name: 
 last_name:
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -116,7 +116,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: AAL research dairy # blog_name will be displayed in your blog page
+blog_name: Cranberry-Lemon flavored research # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 permalink: /blog/:year/:title/
 

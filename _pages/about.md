@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='qatar.cmu.edu'>An CMU-Q initiative </a>.
+subtitle: 
 
 profile:
   align: right
@@ -22,5 +22,4 @@ Cranberry-Lemon Research (CLR) is an innovative student organization at Carnegie
 
 At CLR, we believe in the power of collaborative innovation. Our organization provides a platform for students from diverse backgrounds to work together on intriguing AI/NLP topics, driving forward the frontiers of research. We offer engaging discussions, workshops, and resources designed to enrich the AI landscape within our community. By creating an inclusive space where individuals passionate about AI can connect and collaborate, CLR not only advances technical knowledge but also builds a supportive network that nurtures personal and professional growth.
 
-
-
+In addition to our core activities, CLR is planning to collaborate with the [Qatar Computing Research Institute (QCRI)](https://www.hbku.edu.qa/en/qcri) to support the Qatar National Team for [the International Olympiad in Artificial Intelligence (IOAI)](https://ioai-official.org/). By working with QCRI, we aim to elevate the standards of AI research and education, ensuring that our members and the wider community benefit from the latest advancements and opportunities in the AI landscape.
