@@ -4,6 +4,6 @@ title: Leon Lu
 description: CMU undergraduate in Computer Science
 img: /assets/img/leon.jpg
 importance: 1
-category: Researcher
+category: collab
 redirect: https://chaosarium.xyz/
 ---
